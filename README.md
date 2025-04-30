@@ -1,24 +1,21 @@
-# README
+# Taskly SaaS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple Ruby on Rails SaaS application for managing tasks — built for learning Agile, TDD, and BDD concepts.
 
-Things you may want to cover:
+---
 
-* Ruby version
+## ✅ Features
 
-* System dependencies
+- Add, edit, delete, and view tasks
+- Mark tasks as complete/incomplete
+- RSpec unit tests for models and controllers
+- Cucumber scenarios for BDD
 
-* Configuration
+---
 
-* Database creation
+## ⚙️ Setup Instructions
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+bundle install
+rails db:setup
+rails server
